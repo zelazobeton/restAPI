@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f3df2d1-584e-496b-bff6-56b739ebde47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/api/v1/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/api/v1/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/api/v1/model/CategoryListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/api/v1/model/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/api/v1/model/CustomerListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/bootstrap/Bootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/controllers/v1/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/controllers/v1/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/controllers/v1/RestResponseEntityExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/services/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/services/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springfamework/controllers/v1/AbstractRestControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springfamework/controllers/v1/CategoryControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springfamework/controllers/v1/CustomerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springfamework/services/CategoryServiceTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springfamework/services/CustomerServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-mvc-rest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-mvc-rest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springfamework/Spring5MvcRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/Spring5MvcRestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springfamework/api/v1/model/CategoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/api/v1/model/CategoryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springfamework/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springfamework/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springfamework/repositories/CategoryRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,18 +40,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Xclan3Mo05qnhCtQfJMQiooUdy" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../restAPI" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="E:/apache-tomcat-8.5.30" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.side.proportion" value="0.42068964" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="guru.springfamework.services" />
+      <recent name="guru.springfamework.controllers.v1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="guru.springfamework" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="guru.springfamework.controllers.v1" />
+      <recent name="guru.springfamework.services" />
+      <recent name="guru.springfamework.repositories" />
+      <recent name="guru.springfamework.domain" />
+      <recent name="guru.springfamework.api.v1.mapper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="guru.springfamework.services" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,7 +108,84 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CustomerControllerTest.testCreateNewCustomer">
+    <configuration name="CategoryControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-mvc-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springfamework.controllers.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springfamework.controllers.v1" />
+      <option name="MAIN_CLASS_NAME" value="guru.springfamework.controllers.v1.CategoryControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryControllerTest.testListCategories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-mvc-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springfamework.controllers.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springfamework.controllers.v1" />
+      <option name="MAIN_CLASS_NAME" value="guru.springfamework.controllers.v1.CategoryControllerTest" />
+      <option name="METHOD_NAME" value="testListCategories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-mvc-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springfamework.controllers.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springfamework.controllers.v1" />
+      <option name="MAIN_CLASS_NAME" value="guru.springfamework.controllers.v1.CustomerControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerTest.testCreateNewCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-mvc-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springfamework.controllers.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springfamework.controllers.v1" />
+      <option name="MAIN_CLASS_NAME" value="guru.springfamework.controllers.v1.CustomerControllerTest" />
+      <option name="METHOD_NAME" value="testCreateNewCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-mvc-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springfamework.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springfamework.services" />
+      <option name="MAIN_CLASS_NAME" value="guru.springfamework.services.CustomerServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring5MvcRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring5-mvc-rest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springfamework.Spring5MvcRestApplication" />
@@ -43,6 +193,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerControllerTest.testCreateNewCustomer" />
+        <item itemvalue="JUnit.CustomerServiceImplTest" />
+        <item itemvalue="JUnit.CustomerControllerTest" />
+        <item itemvalue="JUnit.CategoryControllerTest" />
+        <item itemvalue="JUnit.CategoryControllerTest.testListCategories" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,6 +214,14 @@
       <option name="presentableId" value="Default" />
       <updated>1581353329921</updated>
       <workItem from="1581353335407" duration="1181000" />
+      <workItem from="1581357938148" duration="790000" />
+      <workItem from="1581750507186" duration="409000" />
+      <workItem from="1581750977210" duration="11521000" />
+      <workItem from="1581765704266" duration="7063000" />
+      <workItem from="1581773363318" duration="5039000" />
+      <workItem from="1581848801658" duration="5760000" />
+      <workItem from="1585380656123" duration="6011000" />
+      <workItem from="1585396600711" duration="1067000" />
     </task>
     <servers />
   </component>
@@ -66,7 +233,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
